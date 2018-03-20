@@ -1,0 +1,18 @@
+{% extends 'axf/base.html' %}
+{% load static from staticfiles %}
+
+
+{% block title %}购物车{% endblock title %}
+
+
+{% block linkscript %}
+    <link rel="stylesheet" type="text/css" href="{% static 'axf/cart/css/cart.css' %}" />
+    <script type="text/javascript" src="{% static 'axf/cart/js/cart.js' %}"></script>
+{% endblock linkscript %}
+
+{% block main %}
+    <h1>这是cart页面</h1>
+{% endblock main %}
+
+
+
